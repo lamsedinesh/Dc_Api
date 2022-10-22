@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/dineshdb
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
